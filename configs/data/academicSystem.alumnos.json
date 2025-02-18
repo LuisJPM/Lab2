@@ -1,0 +1,24 @@
+[{
+  "_id": {
+    "$oid": "67b3fa4031cfe5c80fc5e329"
+  },
+  "nombre": "Alejandro",
+  "apellido": "Cortez",
+  "nombreUsuario": "PapaCortez",
+  "email": "carrirtez@gmail.com",
+  "contraseña": "44448888",
+  "curso": "Musica",
+  "status": true
+},
+{
+  "_id": {
+    "$oid": "67b3fa6931cfe5c80fc5e32e"
+  },
+  "nombre": "Jesus",
+  "apellido": "Sis",
+  "nombreUsuario": "Sis4ever",
+  "email": "jsis@gmail.com",
+  "contraseña": "12121212",
+  "curso": "Tecnologia",
+  "status": true
+}]

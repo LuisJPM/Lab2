@@ -1,0 +1,24 @@
+[{
+  "_id": {
+    "$oid": "67b3f8630db58a7a6a6aae23"
+  },
+  "nombre": "Balan",
+  "apellido": "Carranza",
+  "nombreUsuario": "Santa",
+  "email": "bcarranza@gmail.com",
+  "contraseña": "12348765",
+  "curso": "Musica",
+  "status": true
+},
+{
+  "_id": {
+    "$oid": "67b3f8920db58a7a6a6aae28"
+  },
+  "nombre": "Jose",
+  "apellido": "CorteZZZ",
+  "nombreUsuario": "ProfeCortez",
+  "email": "cortez@gmail.com",
+  "contraseña": "11223344",
+  "curso": "Tecnologia",
+  "status": true
+}]
