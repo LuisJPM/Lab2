@@ -1,0 +1,56 @@
+[{
+  "_id": {
+    "$oid": "67b3f56f05452a736110339e"
+  },
+  "nombre": "Literatura",
+  "descripcion": "Idiomas, escritura, lectura y demas.",
+  "status": true
+},
+{
+  "_id": {
+    "$oid": "67b3f59005452a73611033a1"
+  },
+  "nombre": "Musica",
+  "descripcion": "Melodias, armonias, notas y escalas musicales.",
+  "status": true
+},
+{
+  "_id": {
+    "$oid": "67b3f5a405452a73611033a4"
+  },
+  "nombre": "Sociales",
+  "descripcion": "Culturas y antropologia.",
+  "status": true
+},
+{
+  "_id": {
+    "$oid": "67b3f5c505452a73611033a7"
+  },
+  "nombre": "Biologia",
+  "descripcion": "Ciencia, atomos, ecosistemas y laboratorios.",
+  "status": true
+},
+{
+  "_id": {
+    "$oid": "67b3f5e105452a73611033aa"
+  },
+  "nombre": "Taller",
+  "descripcion": "Proyectos, programacion y mas.",
+  "status": true
+},
+{
+  "_id": {
+    "$oid": "67b3f60405452a73611033ad"
+  },
+  "nombre": "Fisica Fundamental",
+  "descripcion": "La secuela de matematica",
+  "status": true
+},
+{
+  "_id": {
+    "$oid": "67b3f62e05452a73611033b0"
+  },
+  "nombre": "Tecnologia",
+  "descripcion": "Parte logica y basica de la programacion.",
+  "status": true
+}]

@@ -1,0 +1,81 @@
+{
+    "clientName": "Thunder Client",
+    "collectionName": "CURSO",
+    "collectionId": "409ab961-a139-450a-83c2-caecff2f8b1a",
+    "dateExported": "2025-02-18T02:57:44.772Z",
+    "version": "1.2",
+    "folders": [],
+    "requests": [
+        {
+            "_id": "bbc7ebe2-945a-4829-b28d-f2e5db1f601c",
+            "colId": "409ab961-a139-450a-83c2-caecff2f8b1a",
+            "containerId": "",
+            "name": "crearCurso",
+            "url": "http://localhost:3000/academicSystem/v1/curso/registroCurso",
+            "method": "POST",
+            "sortNum": 10000,
+            "created": "2025-02-18T02:48:35.694Z",
+            "modified": "2025-02-18T02:53:34.859Z",
+            "headers": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"nombre\": \"Tecnologia\",\n  \"descripcion\": \"Parte logica y basica de la programacion.\"\n}",
+                "form": []
+            }
+        },
+        {
+            "_id": "43579368-147a-4404-9b97-5742c92c2307",
+            "colId": "409ab961-a139-450a-83c2-caecff2f8b1a",
+            "containerId": "",
+            "name": "listarCurso",
+            "url": "http://localhost:3000/academicSystem/v1/curso/",
+            "method": "GET",
+            "sortNum": 20000,
+            "created": "2025-02-18T02:53:43.899Z",
+            "modified": "2025-02-18T02:53:56.751Z",
+            "headers": []
+        },
+        {
+            "_id": "205c0f61-ebe9-4b05-bdf6-3c80222ce72c",
+            "colId": "409ab961-a139-450a-83c2-caecff2f8b1a",
+            "containerId": "",
+            "name": "buscarCursoPorId",
+            "url": "http://localhost:3000/academicSystem/v1/curso/findCurso/67b3f59005452a73611033a1",
+            "method": "GET",
+            "sortNum": 30000,
+            "created": "2025-02-18T02:54:21.083Z",
+            "modified": "2025-02-18T02:54:42.383Z",
+            "headers": []
+        },
+        {
+            "_id": "75f016c7-40f2-44c5-bfaa-bbe701ad01fb",
+            "colId": "409ab961-a139-450a-83c2-caecff2f8b1a",
+            "containerId": "",
+            "name": "actualizarCurso",
+            "url": "http://localhost:3000/academicSystem/v1/curso/actualizarCurso/67b3f5c505452a73611033a7",
+            "method": "PATCH",
+            "sortNum": 40000,
+            "created": "2025-02-18T02:54:59.907Z",
+            "modified": "2025-02-18T02:56:26.895Z",
+            "headers": [],
+            "body": {
+                "type": "json",
+                "raw": "{\r\n    \"nombre\": \"Biologia\",\r\n    \"descripcion\": \"Ciencia, atomos, ecosistemas y laboratorios.\"\r\n}",
+                "form": []
+            }
+        },
+        {
+            "_id": "bc7d854e-fcbc-4eec-89ef-29c835c7fb61",
+            "colId": "409ab961-a139-450a-83c2-caecff2f8b1a",
+            "containerId": "",
+            "name": "eliminarCurso",
+            "url": "http://localhost:3000/academicSystem/v1/curso/deleteCurso/67b3f5a405452a73611033a4",
+            "method": "DELETE",
+            "sortNum": 50000,
+            "created": "2025-02-18T02:56:37.196Z",
+            "modified": "2025-02-18T02:57:21.056Z",
+            "headers": []
+        }
+    ],
+    "ref": "0XuP9sBtTnL5Gn88Klvbkfrj6E83c1yB8Uln42zUzGufUPuRhg_yeJAzM47wmUyYDqaHRl3tB3aL58T8nyEb_g"
+}

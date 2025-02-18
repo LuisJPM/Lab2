@@ -1,0 +1,81 @@
+{
+    "clientName": "Thunder Client",
+    "collectionName": "ALUMNO",
+    "collectionId": "fbb19124-78b2-4744-807b-e737462c8d36",
+    "dateExported": "2025-02-18T03:15:12.531Z",
+    "version": "1.2",
+    "folders": [],
+    "requests": [
+        {
+            "_id": "d292ada1-4552-4d62-9ce7-f8e1d66fc57b",
+            "colId": "fbb19124-78b2-4744-807b-e737462c8d36",
+            "containerId": "",
+            "name": "crearAlumno",
+            "url": "http://localhost:3000/academicSystem/v1/alumno/registroAlumno",
+            "method": "POST",
+            "sortNum": 10000,
+            "created": "2025-02-18T03:07:32.368Z",
+            "modified": "2025-02-18T03:11:37.658Z",
+            "headers": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n    \"nombre\": \"Jesus\",\n    \"apellido\": \"Sis\",\n    \"nombreUsuario\": \"Sis4ever\",\n    \"email\": \"jsis@gmail.com\",\n    \"contraseña\": \"12121212\",\n    \"curso\": \"Tecnologia\"\n\n}",
+                "form": []
+            }
+        },
+        {
+            "_id": "ccd2ecb4-5c9b-4b0b-8f1f-b714fbc48efc",
+            "colId": "fbb19124-78b2-4744-807b-e737462c8d36",
+            "containerId": "",
+            "name": "listarAlumno",
+            "url": "http://localhost:3000/academicSystem/v1/alumno/",
+            "method": "GET",
+            "sortNum": 20000,
+            "created": "2025-02-18T03:07:42.183Z",
+            "modified": "2025-02-18T03:11:55.158Z",
+            "headers": []
+        },
+        {
+            "_id": "1ab939b6-be97-41e8-ad11-19ab46e0564f",
+            "colId": "fbb19124-78b2-4744-807b-e737462c8d36",
+            "containerId": "",
+            "name": "buscarAlumnoPorId",
+            "url": "http://localhost:3000/academicSystem/v1/alumno/findAlumno/67b3fa6931cfe5c80fc5e32e",
+            "method": "GET",
+            "sortNum": 30000,
+            "created": "2025-02-18T03:07:49.631Z",
+            "modified": "2025-02-18T03:12:39.259Z",
+            "headers": []
+        },
+        {
+            "_id": "81a17d87-d2f6-41b8-aa7e-c752e2bdc2f4",
+            "colId": "fbb19124-78b2-4744-807b-e737462c8d36",
+            "containerId": "",
+            "name": "actualizarAlumno",
+            "url": "http://localhost:3000/academicSystem/v1/alumno/actualizarAlumno/67b3fa4031cfe5c80fc5e329",
+            "method": "PATCH",
+            "sortNum": 40000,
+            "created": "2025-02-18T03:08:03.383Z",
+            "modified": "2025-02-18T03:14:22.134Z",
+            "headers": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n      \"nombre\": \"Alejandro\",\n      \"apellido\": \"Cortez\",\n      \"nombreUsuario\": \"PapaCortez\",\n      \"email\": \"carrirtez@gmail.com\",\n      \"contraseña\": \"01010101\",\n      \"curso\": \"Musica\"\n    }",
+                "form": []
+            }
+        },
+        {
+            "_id": "179021b4-3322-4485-aea7-4af57c1861ad",
+            "colId": "fbb19124-78b2-4744-807b-e737462c8d36",
+            "containerId": "",
+            "name": "eliminarAlumno",
+            "url": "http://localhost:3000/academicSystem/v1/alumno/deleteAlumno/67b3fa6931cfe5c80fc5e32e",
+            "method": "DELETE",
+            "sortNum": 50000,
+            "created": "2025-02-18T03:08:10.239Z",
+            "modified": "2025-02-18T03:14:53.827Z",
+            "headers": []
+        }
+    ],
+    "ref": "AGKBuGOrtN1VQUwpL3KwkxP3KppZXhEQ0Orf5br95UoJsUpLCJl5EGk7qYqbI4q3IejiLm4FK_MTWQreOIhGDg"
+}

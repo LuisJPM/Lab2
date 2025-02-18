@@ -1,0 +1,81 @@
+{
+    "clientName": "Thunder Client",
+    "collectionName": "PROFESOR",
+    "collectionId": "b1ca5636-a755-4120-a42f-4230d3a49058",
+    "dateExported": "2025-02-18T03:07:11.684Z",
+    "version": "1.2",
+    "folders": [],
+    "requests": [
+        {
+            "_id": "6f09e9c0-97dd-4552-816b-b533bd8da3b8",
+            "colId": "b1ca5636-a755-4120-a42f-4230d3a49058",
+            "containerId": "",
+            "name": "crearProfesor",
+            "url": "http://localhost:3000/academicSystem/v1/profesor/registroProfesor",
+            "method": "POST",
+            "sortNum": 10000,
+            "created": "2025-02-18T02:58:59.052Z",
+            "modified": "2025-02-18T03:03:46.158Z",
+            "headers": [],
+            "body": {
+                "type": "json",
+                "raw": "{\r\n    \"nombre\": \"Carlos\",\r\n    \"apellido\": \"Cortez\",\r\n    \"nombreUsuario\": \"CorteZZZ\",\r\n    \"email\": \"cortezkinal@gmail.com\",\r\n    \"contraseña\": \"11223344\",\r\n    \"curso\": \"Taller\"\r\n\r\n}",
+                "form": []
+            }
+        },
+        {
+            "_id": "8835b801-bc24-47b2-afa9-e429a6a17f56",
+            "colId": "b1ca5636-a755-4120-a42f-4230d3a49058",
+            "containerId": "",
+            "name": "listarProfesor",
+            "url": "http://localhost:3000/academicSystem/v1/profesor/",
+            "method": "GET",
+            "sortNum": 20000,
+            "created": "2025-02-18T02:59:10.195Z",
+            "modified": "2025-02-18T03:04:06.589Z",
+            "headers": []
+        },
+        {
+            "_id": "fa9786f1-b8f5-47d6-93ad-d67c63e87ed5",
+            "colId": "b1ca5636-a755-4120-a42f-4230d3a49058",
+            "containerId": "",
+            "name": "buscarProfesorPorId",
+            "url": "http://localhost:3000/academicSystem/v1/profesor/findProfesor/67b3f82c0db58a7a6a6aae1e",
+            "method": "GET",
+            "sortNum": 30000,
+            "created": "2025-02-18T02:59:28.539Z",
+            "modified": "2025-02-18T03:04:37.956Z",
+            "headers": []
+        },
+        {
+            "_id": "8dd2b334-606a-4490-84d9-d8818ccfa593",
+            "colId": "b1ca5636-a755-4120-a42f-4230d3a49058",
+            "containerId": "",
+            "name": "actualizarProfesor",
+            "url": "http://localhost:3000/academicSystem/v1/profesor/actualizarProfesor/67b3f8920db58a7a6a6aae28",
+            "method": "PATCH",
+            "sortNum": 40000,
+            "created": "2025-02-18T02:59:41.213Z",
+            "modified": "2025-02-18T03:06:40.522Z",
+            "headers": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n      \"nombre\": \"Jose\",\n      \"apellido\": \"CorteZZZ\",\n      \"nombreUsuario\": \"ProfeCortez\",\n      \"email\": \"cortez@gmail.com\",\n      \"contraseña\": \"11112222\",\n      \"curso\": \"Tecnologia\"\n    }",
+                "form": []
+            }
+        },
+        {
+            "_id": "79e34e8f-5e2b-40d2-8123-6fea164f0a73",
+            "colId": "b1ca5636-a755-4120-a42f-4230d3a49058",
+            "containerId": "",
+            "name": "eliminarProfesor",
+            "url": "http://localhost:3000/academicSystem/v1/profesor/deleteProfesor/67b3f8920db58a7a6a6aae28",
+            "method": "DELETE",
+            "sortNum": 50000,
+            "created": "2025-02-18T02:59:59.365Z",
+            "modified": "2025-02-18T03:07:03.326Z",
+            "headers": []
+        }
+    ],
+    "ref": "OBUG8bv9Xx681ejm7CfGaw_V2_uYq5LK1YPbI12a5W-zJUv3TbyjHBI9DUkf8cciaqmbGKjZ-Zqeb9CSbHaj2g"
+}

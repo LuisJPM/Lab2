@@ -1,0 +1,84 @@
+[{
+  "_id": {
+    "$oid": "67b3cf4654f8a442db508d84"
+  },
+  "nombre": "Christopher",
+  "apellido": "Duarte",
+  "nombreUsuario": "Prof. Duarte",
+  "email": "cduarte@gmail.com",
+  "contraseña": "$argon2id$v=19$m=65536,t=3,p=4$XSYjvsyVa1Bq73pDwUJKsw$YdOFsuWVCGg0jDrfXQRlbHWjjEzXz6bQKAIGKDWLXCE",
+  "role": "TEACHER_ROLE",
+  "status": true
+},
+{
+  "_id": {
+    "$oid": "67b3cf9254f8a442db508d88"
+  },
+  "nombre": "Pablo",
+  "apellido": "Rivas",
+  "nombreUsuario": "Prof. Rivas",
+  "email": "rivas@gmail.com",
+  "contraseña": "$argon2id$v=19$m=65536,t=3,p=4$nBVPXu2hG36e2zcHY2uI9w$JWDPPXhmT6Wa9cy6y1p30ZnOW33Irlmh3Vsykk8UASA",
+  "role": "TEACHER_ROLE",
+  "status": true
+},
+{
+  "_id": {
+    "$oid": "67b3d02154f8a442db508d8c"
+  },
+  "nombre": "Fernando",
+  "apellido": "Choc",
+  "nombreUsuario": "fchoc",
+  "email": "fchoc@gmail.com",
+  "contraseña": "$argon2id$v=19$m=65536,t=3,p=4$GZo7Zu/XIQ227hnmOZZORg$xj0Ju2G483zmNHXoyA/1x/ai7PO9it5GGCl4qCcWDFw",
+  "role": "STUDENT_ROLE",
+  "status": true
+},
+{
+  "_id": {
+    "$oid": "67b3d04254f8a442db508d90"
+  },
+  "nombre": "Luisin",
+  "apellido": "Carrilloc",
+  "nombreUsuario": "Luisillo",
+  "email": "lcarrilloc@gmail.com",
+  "contraseña": "$argon2id$v=19$m=65536,t=3,p=4$i8wLGKvK0OhkTBfRqX5CFQ$Qbgq465t59NiN3/tRGZwcLVqNUKOS5E7rjIi0cy1zr4",
+  "role": "STUDENT_ROLE",
+  "status": true
+},
+{
+  "_id": {
+    "$oid": "67b3d07654f8a442db508d94"
+  },
+  "nombre": "John",
+  "apellido": "Lennon",
+  "nombreUsuario": "JLEMON",
+  "email": "lennon@gmail.com",
+  "contraseña": "$argon2id$v=19$m=65536,t=3,p=4$ML9EbFY9wz7GrYkK2kBqww$9S/QUYrZou8pT+PTubNWDp23b6dryvBk+SeD+5AWGhM",
+  "role": "STUDENT_ROLE",
+  "status": true
+},
+{
+  "_id": {
+    "$oid": "67b3d0ae54f8a442db508d98"
+  },
+  "nombre": "Paul",
+  "apellido": "McCartney",
+  "nombreUsuario": "RAMON",
+  "email": "paulm@gmail.com",
+  "contraseña": "$argon2id$v=19$m=65536,t=3,p=4$L3odufgwx52980rN9w6paA$uTnV+YucpENsT8DTOipXxymWy9YQxXH41bEefE1SpIk",
+  "role": "STUDENT_ROLE",
+  "status": true
+},
+{
+  "_id": {
+    "$oid": "67b3d0e554f8a442db508d9c"
+  },
+  "nombre": "David",
+  "apellido": "Bowie",
+  "nombreUsuario": "Ziggy",
+  "email": "starman@gmail.com",
+  "contraseña": "$argon2id$v=19$m=65536,t=3,p=4$lMGWGhV+mrmRGtmLuYHokA$o/cRwRd5pMz39/vNApX/WMFBrKW9Gd9xXhmtfFhryss",
+  "role": "STUDENT_ROLE",
+  "status": true
+}]

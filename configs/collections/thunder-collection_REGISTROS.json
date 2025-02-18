@@ -1,0 +1,45 @@
+{
+    "clientName": "Thunder Client",
+    "collectionName": "REGISTROS",
+    "collectionId": "50d49cb2-1f2a-40f9-b5a8-c2b17cb536a2",
+    "dateExported": "2025-02-18T00:21:07.739Z",
+    "version": "1.2",
+    "folders": [],
+    "requests": [
+        {
+            "_id": "6a9ef360-faf5-4daf-b2a4-dfcc780e5333",
+            "colId": "50d49cb2-1f2a-40f9-b5a8-c2b17cb536a2",
+            "containerId": "",
+            "name": "registro",
+            "url": "http://localhost:3000/academicSystem/v1/auth/login",
+            "method": "POST",
+            "sortNum": 10000,
+            "created": "2025-02-17T23:42:43.539Z",
+            "modified": "2025-02-18T00:18:42.452Z",
+            "headers": [],
+            "body": {
+                "type": "json",
+                "raw": "{\r\n    \"nombreUsuario\": \"Prof. Elmer\",\r\n    \"contraseña\": \"12345678\"\r\n}",
+                "form": []
+            }
+        },
+        {
+            "_id": "715b6750-ac32-4f30-a16f-da399303e61f",
+            "colId": "50d49cb2-1f2a-40f9-b5a8-c2b17cb536a2",
+            "containerId": "",
+            "name": "login",
+            "url": "http://localhost:3000/academicSystem/v1/auth/login",
+            "method": "POST",
+            "sortNum": 30000,
+            "created": "2025-02-18T00:09:26.797Z",
+            "modified": "2025-02-18T00:19:22.209Z",
+            "headers": [],
+            "body": {
+                "type": "json",
+                "raw": "{\r\n    \"nombreUsuario\": \"Prof. Elmer\",\r\n    \"contraseña\": \"12345678\"\r\n}",
+                "form": []
+            }
+        }
+    ],
+    "ref": "sGDkiNHD2S8PfGavosjZopFgJCfvxOTC9lap5V8jJgphTtDqJwhI1lSyR5t_hlRLVTtdaWM4hGTdDeM8NwrLbA"
+}
